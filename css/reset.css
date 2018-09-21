@@ -1,0 +1,23 @@
+body {
+  margin: 0px;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.no-margin-left {
+	margin-left: 0px !important;
+}
+
+.b-active {
+  background: #268aef !important;
+}
+
+.active {
+	color: #268aef;
+}
