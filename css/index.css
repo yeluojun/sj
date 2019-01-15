@@ -33,6 +33,7 @@
 .header .logo .logo-text {
 	display: inline-block;
 	vertical-align: middle;
+  cursor: pointer;
 }
 
 .header .logo .logo-text span {
@@ -161,8 +162,8 @@
 
 .min-projects .list .item {
 	display: inline-block;
-	width: 298px;
-	height: 268px;
+	width: 295px;
+	height: 265px;
 	overflow: hidden;
 	margin-right: 10px;
 	position: relative;
@@ -233,7 +234,7 @@
 
 .footer .content {
   width: 925px;
-  background: #ededec;
+  /* background: #ededec; */
   display: inline-block;
   height: 85px;
   vertical-align: middle;
@@ -243,7 +244,9 @@
    float: left;
    height: 100%;
    width: 165px;
-   background: #ababab;
+   font-weight: 700;
+   color: #fff;
+   /* background: #ababab; */
    line-height: 85px;
 }
 
@@ -251,15 +254,20 @@
   float: right;
   height: 100%;
   width: 98px;
-  background: #ababab;
-  font-size: 0;
+  /* background: #ababab; */
+  font-size: 25;
 }
 
 .footer .content .middle {
 	padding-left: 165px;
-	padding-right: 98px；
-	line-height: 85px;
-
+	padding-right: 98px;
+  line-height: 85px;
+  float: left;
+  /*width:  400px;*/
+}
+.footer .content .middle  p {
+  font-size: 20px;
+  color: #fff;
 }
 
 .footer .content .right  img {
@@ -275,11 +283,14 @@
 
 .middle-text p {
 	line-height: 1;
-  font-size: 28px;
+  font-size: 36px;
   padding-bottom: 5px;
   padding-top: 5px;
 }
 
+.middle-text .phone {
+  font-size: 26px;
+}
 /*   about us  */
 
 .about-left {
@@ -298,7 +309,7 @@
   height: 200px;
   width: 60%;
   /* background-color: #000000; */
-  padding-top: 8px; 
+  padding-top: 8px;
   letter-spacing: 4px;
   font-size: 105%;
 }
