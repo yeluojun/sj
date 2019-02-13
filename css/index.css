@@ -179,7 +179,9 @@
 	line-height: 32px;
 	cursor: pointer;
 }
-
+.shadow a {
+  text-decoration: none;
+}
 .min-projects .more::after {
   content: '';
   display: inline-block;
